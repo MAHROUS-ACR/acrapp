@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "985459317658",
+    "project_id": "myapp-d9024",
+    "storage_bucket": "myapp-d9024.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985459317658:android:2dbd7ce82babcda474f823",
+        "android_client_info": {
+          "package_name": "Flutter.ff12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkLQdO-VWeg-F5ZH2IHVFEQyXCsDryafo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
