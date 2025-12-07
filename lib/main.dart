@@ -185,7 +185,7 @@ class _StoreHomeScreenState extends State<StoreHomeScreen> {
                       ),
                       const SizedBox(width: 12),
                       const Text(
-                        "متجري",
+                        "متجر",
                         style: TextStyle(
                             fontSize: 28,
                             fontWeight: FontWeight.w900),
