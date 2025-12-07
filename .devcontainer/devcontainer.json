@@ -1,0 +1,20 @@
+{
+  "name": "Flutter",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "git clone https://github.com/flutter/flutter.git /home/vscode/flutter && echo 'export PATH=\"$PATH:/home/vscode/flutter/bin\"' >> /home/vscode/.bashrc && echo 'export PATH=\"$PATH:/home/vscode/flutter/bin/cache/dart-sdk/bin\"' >> /home/vscode/.bashrc && echo 'export PATH=\"$PATH:/home/vscode/flutter/bin\"' >> /home/vscode/.zshrc && echo 'export PATH=\"$PATH:/home/vscode/flutter/bin/cache/dart-sdk/bin\"' >> /home/vscode/.zshrc",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code"
+      ],
+      "settings": {
+        "dart.flutterSdkPath": "/home/vscode/flutter"
+      }
+    }
+  },
+  "remoteUser": "vscode"
+}
